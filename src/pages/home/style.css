@@ -181,13 +181,18 @@ span p{
 
 /* Mobile Edits */
 @media only screen and (max-width:600px) {
+    .image-container{
+        width: 50vh;
+        max-width: 600px;
+        position: relative;
+    }
     .name .last {
-        margin-left: -45px;
-        margin-top: 40px;
+        margin-left: -10px;
+        margin-top: 30px;
     }
     .position {
-        margin-top: 80px;
-        margin-left: -20px;
+        margin-top: 70px;
+        margin-left: -40px;
     }
     .position > div {
         width: 0px;
