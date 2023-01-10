@@ -166,13 +166,54 @@ const home = () => {
 
             <ScrollPage page={5}>
                 <Animator animation={ZoomInScrollOut}>
+                    <div className="section-title skills">
+                        Skills
+                    </div>
+                </Animator>
+            </ScrollPage>
+
+            <ScrollPage page={6}>
+                <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+                    <div className="skills-content">
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Express.js</li>
+                            <li>Node.js</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                            <li>MongoDB</li>
+                            <li>mySQL</li>
+                            <li>Git</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>OOP</li>
+                            <li>UI/UX</li>
+                            <li>R</li>
+                            <li>Netlify</li>
+                            <li>Heroku</li>
+                            <li>GitHub</li>
+                            <li>PhotoShop</li>
+                            <li>Vegas Pro</li>
+                            <li>Ableton 11</li>
+                            <li>Audacity</li>
+                          </ul>
+                    </div>
+                </Animator>
+            </ScrollPage>
+
+            <ScrollPage page={7}>
+                <Animator animation={ZoomInScrollOut}>
                     <div className="section-title contact">
                         Contact
                     </div>
                 </Animator>
             </ScrollPage>
 
-            <ScrollPage page={6}>
+            <ScrollPage page={8}>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'center',

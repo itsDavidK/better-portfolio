@@ -157,6 +157,10 @@
     margin-top: 15px;
 }
 
+.skills::after{
+    content: 'skills';
+}
+
 .contact::after{
     content: 'contact';
 }
