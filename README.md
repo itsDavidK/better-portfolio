@@ -15,7 +15,7 @@ David Kovalchuk
 No installation needed.
 
 ## Website_Screenshot
-<img src="src/util/screenshot.png">
+<img src="src/img/readme.gif">
 
 ## Link
 https://davidmnml.netlify.app/
