@@ -12,7 +12,8 @@ better-portfolio is a portfolio page I created experimenting with parallax scrol
 
 David Kovalchuk
 ## Installation
-No installation needed.
+When trying to run the code, you will first need to "npm install" in the terminal in order to work.
+
 
 ## Website_Screenshot
 <img src="src/img/readme.gif">
